@@ -1,0 +1,32 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+li {
+    margin: 5px;
+    background: #eef;
+    padding: 5px;
+    list-style: none;
+}
+
+button {
+    margin: 5px;
+    padding: 5px 10px;
+}
+
+#emergency {
+    background: red;
+    color: white;
+}
+
+#normal {
+    background: green;
+    color: white;
+}
+
+#list {
+    padding: 0;
+    max-width: 300px;
+    margin: 0 auto;
+}

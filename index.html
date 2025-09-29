@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>Clinic</title>
+  <!-- Link to CSS file for styling -->
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+  <!-- Page heading -->
+  <h1>🏥 Clinic Booking</h1>
+  <!-- Small note about rules -->
+  <p>No entry without appointment (🚑 only emergencies)</p>
+
+  <!-- Form for booking -->
+  <form id="form">
+    <!-- Write your name -->
+    <input id="name" placeholder="Name" required>
+    <!-- Write your age -->
+    <input id="age" type="number" placeholder="Age" required>
+    <!-- Tick if pregnant -->
+    <label><input type="checkbox" id="pregnant"> Pregnant?</label><br>
+    <!-- Pick a date -->
+    <input id="date" type="date" required>
+    <!-- Pick a time -->
+    <input id="time" type="time" required>
+    <!-- Button to book -->
+    <button>Book</button>
+  </form>
+
+  <!-- Emergency button -->
+  <button id="emergency">🚑 Emergency</button>
+
+  <!-- List of appointments -->
+  <h2>Appointments</h2>
+  <ul id="list"></ul>
+
+  <!-- Link to JavaScript code -->
+  <script src="index.js"></script>
+</body>
+
+</html>
